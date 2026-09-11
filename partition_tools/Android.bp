@@ -45,6 +45,9 @@ cc_library_shared {
     static_libs: [
         "libjsonpbparse",
     ],
+    header_libs: [
+        "libupdate_engine_headers",
+    ],
     srcs: [
         "lpdump.cc",
         "dynamic_partitions_device_info.proto",
